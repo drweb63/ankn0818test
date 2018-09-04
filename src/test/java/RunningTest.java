@@ -5,10 +5,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/main/resources/features",
-        glue = "ankn0818.test",
-        tags = "@withdrawal",
+        features = "src/test/java/ankn0818/features",
+        glue = "ankn0818",
+        tags = "@test#1",
         snippets = SnippetType.CAMELCASE
 )
-public class RunnerTest {
+public class RunningTest {
 }

@@ -1,9 +1,10 @@
-package ankn0818.test;
+package ankn0818.steps;
 
 import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
 import cucumber.api.java.ru.*;
 
-public class MyStepdefs {
+public class example_ru_Step {
 
     @Дано("^на счете пользователя имеется (\\d+) рублей$")
     public void наСчетеПользователяИмеетсяРублей(int arg1) throws Throwable {
@@ -22,4 +23,6 @@ public class MyStepdefs {
         // Write code here that turns the phrase above into concrete actions
         throw new PendingException();
     }
+
+
 }
